@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>
+        Material Dashboard PRO by Creative Tim
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport'/>
+    {% include "accounts/static/styles.html" %}
+    {% block extra-css %}
+    {% endblock %}
+
+</head>
+
+<body class="off-canvas-sidebar">
+<!-- Navbar -->
+<!-- End Navbar -->
+{% include "accounts/partials/login-nav.html" %}
+{% block content %}
+{% endblock %}
+{% include "accounts/static/scripts.html" %}
+{% block extra-js %}
+{% endblock %}
+</body>
+
+</html>
